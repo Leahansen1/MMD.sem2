@@ -1,0 +1,155 @@
+header {
+  background-color: rgb(241, 239, 239);
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+}
+
+main {
+  margin: 10%;
+  background-color: white;
+}
+
+.kategoriList {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: white;
+  font-weight: 400;
+  font-size: 5vw;
+  background-color: lightslategray;
+  padding: 0;
+  margin: 0;
+}
+
+.kategoriList li {
+  border-bottom: 2px solid white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+
+.kategoriList ol {
+  list-style-type: none;
+}
+
+.kateroliste li::after {
+  display: block;
+  width: 20px;
+  height: 20px;
+  content: "";
+  transition: all 0.3s;
+  background-repeat: no-repeat;
+}
+
+.purchaseBox {
+  border-color: black;
+  border: solid;
+  color: black;
+  padding: 1rem;
+  max-width: 80%;
+}
+
+li {
+  list-style-position: inside;
+}
+
+ol {
+  list-style: decimal outside;
+  list-style-type: none;
+}
+
+.grid_2-4 {
+  display: grid;
+  grid-template-columns: repeat(3, 300px);
+  grid-template-rows: repeat(4, 1fr);
+  gap: 4rem;
+  justify-content: center;
+}
+
+.grid_2-1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.grid_1-1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+img {
+  max-width: 100%;
+}
+
+.produkt {
+  background-color: rgb(238, 232, 229);
+  padding: 1rem;
+}
+
+.produkt-udsolgt {
+  background-color: whitesmoke;
+  padding: 1rem;
+  opacity: 50%;
+  text-decoration: line-through;
+}
+
+.price {
+  font-size: 2vw;
+}
+
+.produktside {
+  background-color: whitesmoke;
+  padding: 1rem;
+  display: grid;
+  grid-template-columns: repeat(2, 300px);
+  grid-template-rows: (1fr, 1fr);
+}
+
+.tilbud {
+  background-color: red;
+  color: white;
+  padding: 10%;
+  text-align: center;
+}
+
+.udsolgt {
+  background-color: black;
+  color: white;
+  padding: 5%;
+}
+
+h1,
+h3,
+p {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+li {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+h2 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+  font-size: 40px;
+  font-weight: 100;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+a {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  color: lightskyblue;
+}
+
+a::after {
+  color: black;
+}
